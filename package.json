@@ -1,0 +1,19 @@
+{
+  "name": "smart-study-planner",
+  "version": "1.0.0",
+  "description": "A comprehensive full-stack web application for managing student tasks, group collaboration, and administrative oversight. Built with React 18, Python Flask, and Supabase PostgreSQL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm --prefix frontend start",
+    "dev": "npm --prefix frontend start",
+    "build": "npm --prefix frontend run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
