@@ -1,0 +1,25 @@
+.filter-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.table-responsive {
+  border-radius: 5px;
+}
+
+.badge {
+  padding: 8px 12px;
+  font-size: 0.85rem;
+}
+
+.btn-outline-primary:hover {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}

@@ -1,0 +1,40 @@
+.stat-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.activity-log {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.activity-item {
+  padding: 15px;
+  border-left: 3px solid #667eea;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.activity-item:hover {
+  background-color: #e9ecef;
+}
+
+.nav-tabs .nav-link {
+  color: #666;
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active {
+  color: #667eea;
+  border-bottom-color: #667eea;
+}

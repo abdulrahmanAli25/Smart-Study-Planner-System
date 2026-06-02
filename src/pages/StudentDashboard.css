@@ -1,0 +1,44 @@
+.stat-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.subject-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.subject-card:hover {
+  transform: translateY(-3px);
+}
+
+.task-list {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.task-list .card {
+  border: none;
+  border-left: 4px solid #667eea;
+  border-radius: 5px;
+}
+
+.invitations-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.invitations-list .card {
+  border: none;
+  border-left: 4px solid #ffc107;
+  border-radius: 5px;
+}

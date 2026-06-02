@@ -1,0 +1,36 @@
+.calendar-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rbc-calendar {
+  font-family: inherit;
+}
+
+.rbc-today {
+  background-color: rgba(102, 126, 234, 0.1);
+}
+
+.rbc-off-range-bg {
+  background-color: #f8f9fa;
+}
+
+.rbc-event {
+  background-color: #667eea;
+  padding: 2px 5px;
+}
+
+.rbc-event:hover {
+  background-color: #764ba2;
+}
+
+.rbc-toolbar {
+  padding: 15px 0;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: #667eea;
+  color: white;
+}

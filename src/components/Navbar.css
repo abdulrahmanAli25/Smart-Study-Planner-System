@@ -1,0 +1,21 @@
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 1.3rem;
+  color: #fff !important;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #667eea !important;
+}
+
+.navbar-dark .nav-link {
+  color: #aaa !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #fff !important;
+}

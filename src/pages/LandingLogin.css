@@ -1,0 +1,40 @@
+.landing-page {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.landing-page h1 {
+  color: white;
+}
+
+.landing-page .lead {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #667eea;
+}
+
+.nav-tabs .nav-link.active {
+  color: #667eea;
+  border-bottom: 3px solid #667eea;
+}
+
+.about-content {
+  padding: 15px 0;
+}
+
+.about-content ul {
+  padding-left: 20px;
+}
+
+.about-content li {
+  margin-bottom: 8px;
+}

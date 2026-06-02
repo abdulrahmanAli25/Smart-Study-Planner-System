@@ -1,0 +1,29 @@
+.registration-page {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.registration-page h1 {
+  color: white;
+}
+
+.registration-page .lead {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.btn-primary:hover {
+  background-color: #667eea;
+  border-color: #667eea;
+}
